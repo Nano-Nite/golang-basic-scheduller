@@ -16,7 +16,7 @@ import (
 
 func main() {
 
-	schedulerTime := "* * * * *"
+	schedulerTime := "* */5 * * *"
 	var wg sync.WaitGroup
 
 	myFigure := figure.NewColorFigure("Soluix", "", "red", true)
